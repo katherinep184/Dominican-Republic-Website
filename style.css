@@ -1,0 +1,58 @@
+/* External CSS */
+body{
+  font-family:Times roman;
+  /*margin:0 auto;  New */
+}
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headerDiv {
+    position: fixed;
+    width:100%;
+    background-color:black;
+    text-align: center;
+}
+
+#titleDiv {
+    width: auto;
+    color:#FFF;
+}
+
+#navUL {
+    list-style-type:none;
+    margin: 0 auto;
+    padding:0;
+    width:100%;
+}
+
+#navUL li {
+    padding: .2em 1em;
+    color: #fff;
+    background-color: #036;
+    display:inline-block;
+    text-align:center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: powderblue;
+  padding: 60px;
+  color: red;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
