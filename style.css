@@ -3,10 +3,30 @@ body{
   font-family:Times roman;
   /*margin:0 auto;  New */
 }
- {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container{
+	display:flex;
+}
+.center{
+	justify-content:center;
+	align-items:center;
+}
+
+.container *{
+	flex:1;
+}
+
+nav a{
+	text-decoration:none;
+	background-color:black;
+	color:blue;
+	text-shadow:1px 1px white;
+		text-align:center;
+}
+nav a:hover{
+	background-color:powderblue;
+	color:black;
+	text-shadow:1px 1px white;
+	text-align:center;
 }
 
 #headerDiv {
